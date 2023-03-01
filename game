@@ -1,0 +1,19 @@
+import sys
+#check for errors
+if len(sys.argv) < 2:
+    sys.exit("too few arguments")
+
+for arg in sys.argv[1:-1]:
+    print("hello, my name is", arg)
+
+
+
+
+#slice:  take a subset of list  [index:index]  negative will get rid of it backwards
+#pip: lets you install packages(third party library)
+
+import cowsay
+import sys
+
+if len(sys.argv) == 2:
+    cowsay.trex("hello, " + sys.argv[1])

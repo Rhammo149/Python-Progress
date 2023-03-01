@@ -1,0 +1,67 @@
+
+
+
+
+Secret = ("Ray", "Kurt")
+Guess = ""
+Guess_count = 0
+Guess_limit = 3
+Out_of_guesses = False
+answer = "Yes"
+
+while Guess != Secret[0] and not(Out_of_guesses):
+    if Guess_count < Guess_limit:
+     Guess = input("Who is half japanese and american with the last name hammond: ").strip().capitalize()
+     Guess_count += 1
+    else:
+        Out_of_guesses = True
+
+
+if Out_of_guesses:
+    print("out of guesses you lose!")
+    exit()
+    
+
+else:
+    answer = input("Good job! Right on! Do you want to move on the next stage?").strip().capitalize()
+    if answer == "Yes":
+        Guess_count = 0
+
+
+
+        while Guess != Secret[1] and not (Out_of_guesses):
+            if Guess_count < Guess_limit:
+                Guess = input("Second question! What is ray's dad's name? ").strip().capitalize()
+                Guess_count += 1
+            else:
+                Out_of_guesses = True
+
+
+
+
+
+    if Out_of_guesses:
+        print("Out of guesses, you LOSE!")
+    else:
+        print("Good job! That was the final question! Goodbye!")
+
+def guess_input():
+    Guess = input().strip().capitalize()
+    
+def Guess():
+    Guess = ""
+
+    
+
+
+def input():
+
+
+
+
+
+
+
+
+
+
