@@ -1,0 +1,7 @@
+1 <a href="https://i.ibb.co/KF1n1r1/Mizuho1.jpg">Click Here for Mizuho</a>  # clink on link to redirect
+
+2 <ui>
+    <li> insert text </li>               # ui is onordered an oi is ordered, bulltepoints of numbered
+</ui>
+
+3 h1, h2 for size of text
